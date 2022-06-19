@@ -7,10 +7,10 @@ The goal of the formatting used here is to compose a document in multiple langua
 ## Usage
 
 ```
-python multilang.py <lang>
+python multilang.py <lang> <file.md>
 ```
 
-`lang` should be a language code specified at the top of the script.
+`lang` should be a language code specified at the top of the script. `file.md` is the file to process. The result of filtering the input will be printed to stdout.
 
 ## Formatting Notes
 
