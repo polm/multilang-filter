@@ -12,6 +12,13 @@ python multilang.py <lang> <file.md>
 
 `lang` should be a language code specified at the top of the script. `file.md` is the file to process. The result of filtering the input will be printed to stdout.
 
+To test it, you can use it with the `demo.md` file in this repo. Try these commands:
+
+```
+python multilang.py en demo.md
+python multilang.py ja demo.md
+```
+
 ## Formatting Notes
 
 The basic principle is that lines marked as belonging to a language will only be output when that language is designated. Unmarked lines are always passed through, and sigils are always stripped from output.
